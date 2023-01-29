@@ -4,10 +4,10 @@
 int Random_Array ()
 {
     int index = 0;
-    int[] collection = new int [1000];
+    int[] collection = new int [900];
     while (index < collection.Length)
     {
-        collection[index] = new Random().Next(0, 1000);
+        collection[index] = new Random().Next(100, 1000);
         index++;
     }
 
